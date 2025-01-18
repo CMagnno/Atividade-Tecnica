@@ -6,7 +6,7 @@ const faturamentoEstados = {
     Outros: 19849.53
 };
 
-// Total
+// total
 const total = Object.values(faturamentoEstados).reduce((acc, val) => acc + val, 0);
 
 // percentuais
